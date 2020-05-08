@@ -6,9 +6,15 @@
   margin-bottom: 25px;
 
   .logo-container {
-    height: 100%;
-    width: 70px;
-    padding: 25px;
+    // height: 100%;
+    // width: 70px;
+    // padding: 25px;
+
+    & > img {
+      width: 11vw;
+      height: auto;
+      margin: 0 1rem;
+    }
   }
 
   .options {

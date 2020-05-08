@@ -8,13 +8,15 @@ import { selectCartHidden } from '../../redux/cart/cart.selector';
 import { selectCurrentUser } from '../../redux/user/user.selector';
 
 import { auth } from '../../firebase/firebase.utils';
-import { ReactComponent as Logo } from '../../assets/crown.svg';
+// import { ReactComponent as Logo } from '../../assets/salad.svg';
+import logo from '../../assets/logo.png';
 import './header.styles.scss';
 
 const Header = ({ currentUser, hidden }) => (
   <div className='header'>
     <Link className='logo-container' to='/'>
-      <Logo className='logo' />
+      {/* <Logo className='logo' /> */}
+      <img className="logo" src={logo} alt="logo"/>
     </Link>
     <div className='options'>
       <Link className='option' to='/shop'>

@@ -1,242 +1,198 @@
 const SHOP_DATA = {
-  hats: {
+  cookies: {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Cookies',
+    routeName: 'cookies',
     items: [{
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25
+        name: 'Multigrain Chocolate Bars',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2020/04/20200228_092642_hdr.jpg?w=960&h=1280&crop=1',
+        price: 85
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        price: 18
+        name: 'Essence Of The Tree',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2020/04/87059961_10213337907960494_8533671662883700736_o.jpg?w=960&h=520&crop=1',
+        price: 95
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-        price: 35
+        name: 'The Golden River',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2020/01/20200111_142558_hdr.jpg?w=1462',
+        price: 95
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-        price: 25
+        name: 'Keto Chocolate Pralines',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2020/01/1578861273096.jpeg?w=1462',
+        price: 75
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-        price: 18
+        name: 'Almond Protein Balls',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2019/04/20190421_151840_hdr.jpg?w=1462',
+        price: 75
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14
+        name: 'Soy Cream Fornetti',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2019/01/20190131_165721_hdr.jpg?w=1462',
+        price: 75
       },
       {
         id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
+        name: 'Beetroot Hemp Seeds Biscuits',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2019/01/20190127_125210_hdr.jpg?w=1462',
+        price: 65
       },
       {
         id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14
+        name: 'Chicory Cocoa Biscuits',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2019/01/20190127_132845_hdr.jpg?w=1462',
+        price: 85
       },
       {
         id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16
-      }
-    ]
-  },
-  sneakers: {
-    id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
-    items: [{
+        name: 'Almond Balls with Dark Chocolate Sauce',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/11/20181102_200253_hdr.jpg?w=1462',
+        price: 95
+      },
+      {
         id: 10,
-        name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-        price: 220
+        name: 'Keto Mars Cookie Bars',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/10/20181016_203005_hdr.jpg?w=1462',
+        price: 95
       },
       {
         id: 11,
-        name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-        price: 280
+        name: 'Fluffy Almond Cake',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/10/20181031_200410_hdr.jpg?w=1462',
+        price: 119
       },
       {
         id: 12,
-        name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        price: 110
-      },
-      {
+        name: 'Pumpkin Pie – Gluten Free',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/10/20181021_201906_hdr.jpg?w=1462',
+        price: 95
+      }
+    ]
+  },
+  food: {
+    id: 2,
+    title: 'Food',
+    routeName: 'food',
+    items: [{
         id: 13,
-        name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-        price: 160
+        name: 'Turkey Cauliflower Patties',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/09/20180928_115516_hdr1.jpg',
+        price: 65
       },
       {
         id: 14,
-        name: 'Nike Red High Tops',
-        imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-        price: 160
+        name: 'Tuna Cauliflower Burger',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/09/42529467_10210277801899755_1289293248900104192_o.jpg',
+        price: 90
       },
       {
         id: 15,
-        name: 'Nike Brown High Tops',
-        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-        price: 160
+        name: 'Vegan Sushi',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/09/27971904_10209029386850159_3387973439211373792_n1.jpg?w=720&h=960',
+        price: 55
       },
       {
         id: 16,
-        name: 'Air Jordan Limited',
-        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-        price: 190
-      },
-      {
-        id: 17,
-        name: 'Timberlands',
-        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-        price: 200
+        name: 'Broccoli Egg White Pie',
+        imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/09/20180924_112755.jpg',
+        price: 65
       }
     ]
   },
-  jackets: {
+  crackers: {
     id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
+    title: 'Crackers',
+    routeName: 'crackers',
     items: [{
-        id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-        price: 125
+      id: 17,
+      name: 'Flax Crackers',
+      imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/09/28377494_10209082037366389_1713331570538016466_n.jpg?w=720&h=960',
+      price: 75
       },
       {
-        id: 19,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-        price: 90
-      },
-      {
-        id: 20,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-        price: 90
-      },
-      {
-        id: 21,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-        price: 165
-      },
-      {
-        id: 22,
-        name: 'Tan Trench',
-        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-        price: 185
+      id: 18,
+      name: 'Quinoa Crackers',
+      imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/09/28279956_10209082037526393_2688048108275118755_n.jpg?w=720&h=960',
+      price: 75
+      }, {
+      id: 19,
+      name: 'Blueberries Lentil Crackers',
+      imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/09/38454781_10209985796319798_2365702007072751616_n.jpg',
+      price: 85
+      }, {
+      id: 20,
+      name: 'Quinoa Crackers',
+      imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/09/28279956_10209082037526393_2688048108275118755_n.jpg?w=720&h=960',
+      price: 75
       }
     ]
   },
-  womens:{
+  salads:{
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'Salads',
+    routeName: 'salads',
     items: [{
-        id: 23,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-        price: 25
+      id: 21,
+      name: 'Green peas salad',
+      imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/09/28577333_10209087983995051_4088563096300139908_n.jpg',
+      price: 25
       },
       {
-        id: 24,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-        price: 20
+      id: 22,
+      name: 'Fresh Light Salad',
+      imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/09/38508310_10209981842740961_8391641097314500608_n.jpg',
+      price: 20
       },
       {
-        id: 25,
-        name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-        price: 80
+      id: 23,
+      name: 'Mexican light salad',
+      imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/09/38532471_10209985794879762_6680301418194141184_n.jpg',
+      price: 80
       },
       {
-        id: 26,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-        price: 80
-      },
-      {
-        id: 27,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-        price: 45
-      },
-      {
-        id: 28,
-        name: 'Yellow Track Suit',
-        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-        price: 135
-      },
-      {
-        id: 29,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-        price: 20
+      id: 24,
+      name: 'Cauliflower Tomatoes Soup',
+      imageUrl: 'https://cosminanutrition.files.wordpress.com/2018/09/4931976700641591245.jpg',
+      price: 25
       }
     ]
   },
-  mens: {
+  traditional: {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'Traditional',
+    routeName: 'traditional',
     items: [{
-        id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325
+      id: 25,
+      name: 'Pasca',
+      imageUrl: 'https://www.lalena.ro/images/uploaded/600x338_Pasca-fara-aluat-siimpla-si-de-mare-efect-Reteta-VIDEO-781.jpg',
+      price: 65
       },
       {
-        id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-        price: 20
+      id: 26,
+      name: 'Cozonac',
+      imageUrl: 'https://i0.wp.com/secretdesibiu.ro/wp-content/uploads/2019/04/cozonac.jpg?fit=1200%2C900',
+      price: 45
       },
       {
-        id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-        price: 25
+      id: 27,
+      name: 'Salam de biscuiti Raffaello ',
+      imageUrl: 'https://www.gustoase.net/wp-content/uploads/2017/10/K115-696x696.jpg',
+      price: 95
       },
       {
-        id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-        price: 25
-      },
-      {
-        id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-        price: 40
-      },
-      {
-        id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-        price: 25
-      }
+      id: 28,
+      name: 'Bilute din salam de biscuti ',
+      imageUrl: 'https://cartederetete.ro/wp-content/uploads/2015/03/bilute4.jpg',
+      price: 95
+    }
     ]
   }
 };
