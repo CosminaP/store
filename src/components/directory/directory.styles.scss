@@ -1,0 +1,13 @@
+.directory-menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+
+  > a:first-child, a:nth-child(2), a:nth-child(3){
+      width: 36rem;
+  }
+   >a:nth-child(4), a:nth-child(5) {
+     width: 50%;
+   }
+}
