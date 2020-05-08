@@ -9,9 +9,12 @@
     // height: 100%;
     // width: 70px;
     // padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     & > img {
-      width: 11vw;
+      width: 12vw;
       height: auto;
       margin: 0 1rem;
     }
